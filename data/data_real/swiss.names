@@ -1,0 +1,19 @@
+Swiss Fertility and Socioeconomic Indicators (1888) Data
+
+Description
+Standardized fertility measure and socio-economic indicators for each 
+of 47 French-speaking provinces of Switzerland at about 1888.
+
+Variables 
+A data frame with 47 observations on 6 variables.
+All variables are scaled to [0, 100]
+Fertility	Ig, ‘common standardized fertility measure’
+Agriculture	 % of males involved in agriculture as occupation
+Examination	 % draftees receiving highest mark on army examination
+Education	 % education beyond primary school for draftees.
+Catholic	 % ‘catholic’ (as opposed to ‘protestant’).
+Infant.Mortality	 live births who live less than 1 year.
+
+Note
+Files for all 182 districts in 1888 and other years have been available at https://opr.princeton.edu/archive/pefp/switz.aspx.
+They state that variables Examination and Education are averages for 1887, 1888 and 1889.
