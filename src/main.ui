@@ -47,11 +47,11 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string>Вибірки</string>
+      <string>Вибірка</string>
      </attribute>
      <widget class="QLabel" name="label">
       <property name="geometry">
@@ -68,7 +68,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Вибірки</string>
+       <string>Вибірка</string>
       </property>
       <property name="textFormat">
        <enum>Qt::AutoText</enum>

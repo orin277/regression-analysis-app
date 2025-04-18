@@ -472,14 +472,14 @@ class Ui_MainWindow(object):
         self.menubar.addAction(self.menufile.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(5)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Regression analysis app"))
-        self.label.setText(_translate("MainWindow", "Вибірки"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Вибірки"))
+        self.label.setText(_translate("MainWindow", "Вибірка"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Вибірка"))
         item = self.tableWidget_8.horizontalHeaderItem(0)
         item.setText(_translate("MainWindow", "Коефіцієнт\n"
 "кореляції "))
